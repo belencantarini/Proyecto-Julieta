@@ -26,6 +26,14 @@
     color: white !important;
 }
 
+.caraside {
+    background-color: whitesmoke;
+}
+
+.box-shadow {
+    box-shadow: 0 0 10px 2px #e6e6e6;
+}
+
 footer {
     background: linear-gradient(90deg, #7648ab 0%, #efb0b0 100% );
     color: white;
@@ -35,6 +43,9 @@ footer {
     color: white;
 }
 
+.footer-column {
+    min-width: 250px;
+}
 
 .mediaicons>li>a>i{
     display: flex;
