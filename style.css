@@ -1,8 +1,17 @@
+.topnavbar {
+    background: #001B2D;
+    color: whitesmoke;
+}
+
+.topnavbar a {
+    color: #e6e6e6;
+}
+
 .banner {
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    background: url("https://img.freepik.com/foto-gratis/mujer-cara-marcada-recibiendo-inyeccion-botox_107420-74126.jpg?w=900&t=st=1668254373~exp=1668254973~hmac=308659a6a3020594a8600beae04866f2b35f9beceb76e7c7d2deaf0ac14d0691"),rgba(255, 6, 247, 0.7);
+    padding: 30px;
+    background: url("https://img.freepik.com/foto-gratis/mujer-cara-marcada-recibiendo-inyeccion-botox_107420-74126.jpg?w=900&t=st=1668254373~exp=1668254973~hmac=308659a6a3020594a8600beae04866f2b35f9beceb76e7c7d2deaf0ac14d0691"),#0000007a;
     background-blend-mode: color;
     background-size: cover;
     height: 70vh;
@@ -16,13 +25,24 @@
     max-width: 560px;
 }
 
+.julieta-background {
+    background: url(https://cdn.pixabay.com/photo/2021/04/15/11/53/office-desk-6180925_960_720.jpg);
+
+}
+
+
+.julieta-shadow {
+    filter: drop-shadow(5px 0px 5px #767676);
+    -webkit-filter: drop-shadow(5px 0px 5px #767676);
+}
+
 .btn-purple {
-    background-color: #7648ab;
+    background-color: #004059;
     color: white;
 }
 
 .btn-purple:hover {
-    background-color: #712bc1 !important;
+    background-color: #041e2f !important;
     color: white !important;
 }
 
@@ -35,7 +55,7 @@
 }
 
 footer {
-    background: linear-gradient(90deg, #7648ab 0%, #efb0b0 100% );
+    background: linear-gradient(90deg, #041e2f 0%, #004059 100% );
     color: white;
 }
 
