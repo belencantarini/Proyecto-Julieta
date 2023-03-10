@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="./imagenes/LOGO AZUL JB.png">
-    <!-- https://www.remove.bg/es/upload -->
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color-glass/256/heart-with-pulse.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Dra Julieta</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <header>
-        <nav class="navbar navbar-expand-lg topnavbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid px-3 px-sm-5">
-                <h1><a class="navbar-brand margin-0" href="#">
-                    <img src="./imagenes/Logo JB2.png" alt="Logo" height="100" class="d-inline-block align-text-center">
-                    <span class="px-3 d-none d-md-inline-block text-light"></span>
-                </a></h1>
+                <a class="navbar-brand" href="#">
+                    <img src="./imagenes/LogotipoJulietaTransparente.png" alt="Logo" height="80" class="d-inline-block align-text-center">
+                    <span class="h4 px-5 d-none d-md-inline">Medicina Estetica</span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse show" id="navbarBasic">
-                    <ul class="navbar-nav ms-auto gap-1">
+                    <ul class="navbar-nav ms-auto mb-2 mb-xl-0 gap-1">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#tratamientos">Tratamientos</a>
+                            <a class="nav-link" aria-current="page" href="index.html#tratamientos">Los tratamientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#sobremi">Sobre mi</a>
+                            <a class="nav-link" aria-current="page" href="index.html#sobremi">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contacto" aria-current="page" href="#contacto">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="index.html#novedades">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link purple" aria-current="page" href="index.html#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -43,93 +44,161 @@
     </header>
     <main class="flex-grow-1">
         <section>
-            <div class="banner">
-                <h2>Medicina estetica</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quos consequatur facere perferendis possimus ex, sit molestias molestiae ad blanditiis ipsam sint, officia illo! Numquam voluptates praesentium assumenda nostrum totam.<p>
-                <button type="button" class="btn btn-outline-light">Quiero saber más</button>
-                <button type="button" class="btn-purple btn"><a href="tickets.html" class="text-white text-decoration-none">Contacto</a></button>
+            <div class="banner d-flex flex-column justify-content-around">
+                <div class="d-flex flex-column justify-content-end align-items-end text-end pt-5 pe-5">
+                    <h2>Medicina estetica</h2>
+                    <p>Esta es tu oportunidad de sentirte plena y hacer eso que siempre quisiste para estar mejor. Los tratamientos son minimamente invasivos y se adaptan a cada necesidad.<p>
+                    <button type="button" class="btn btn-outline-dark"><a href="index.html#tratamientos" class="text-decoration-none text-white">Quiero saber más!</a></button>
+                    <button type="button" class="btn-purple btn "><a href="index.html#contacto" class="text-white text-decoration-none">Contacto</a></button>
+                </div>
             </div>
         </section>
         
-        <section id="tratamientos" class="p-5">
-            <div class="text-center text-uppercase">
-                <h3>Tratamientos</h3>
-            </div>
-            <div class="card-group" id="tratamientos">
-                <div class="card">
-                    <img src="https://img.freepik.com/foto-gratis/manos-cosmetologos-hacen-inyecciones-medicas-botox-hermosa-rubia-lifting-piel-tratamiento-facial-belleza-spa_176420-9347.jpg?w=900&t=st=1668293866~exp=1668294466~hmac=2510e1d5d6ba4342e361a54fac9aee955d2184eb60782abea51984220741848e" class="card-img-top" alt="card-group-image">
-                    <div class="card-body">
-                        <span class="badge bg-warning text-dark">Estetica</span>
-                        <span class="badge bg-info">Antiage</span>
-                        <h5 class="card-title">Acido hialuronico    </h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium harum ut laboriosam reiciendis numquam natus magni fugiat voluptate qui unde placeat dolore non ea et odio dolores, mollitia, eum molestiae.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://img.freepik.com/foto-gratis/hermosa-joven-recibiendo-inyeccion-cosmetica-botox-su-rostro_1301-7787.jpg?w=900&t=st=1668293869~exp=1668294469~hmac=a58294f670bbfc30128d97c5fa3e1156d88eba22b3d79dddba6dcc07d21eaf0c" class="card-img-top" alt="card-group-image">
-                    <div class="card-body">
-                        <span class="badge bg-warning text-dark">Estetica</span>
-                        <span class="badge bg-info">Antiage</span>
-                        <h5 class="card-title">Botox</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nulla saepe consequatur mollitia est laboriosam perferendis deserunt sed, asperiores ratione eveniet ut debitis, obcaecati numquam animi rerum, magni dolor illo?</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://img.freepik.com/foto-gratis/cerrar-manos-dando-inyeccion-mujer-joven_23-2149350081.jpg?w=900&t=st=1668277988~exp=1668278588~hmac=f8c81f8d9f60c4628acc1c661768d9b2b1cfca6f56994eeab87683100683ce74" class="card-img-top" alt="card-group-image">
-                    <div class="card-body">
-                        <span class="badge bg-secondary">Estetica</span>
-                        <span class="badge bg-danger">Antiage</span>
-                        <h5 class="card-title">Hilos tensores</h5>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, nulla? Perspiciatis quidem vitae impedit quaerat, consectetur, dolores laborum numquam dicta mollitia odio odit magni autem molestiae aut. Debitis, amet quis?</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="sobremi">
-            <div class="card">
-                <div class="row g-0 row-cols-1 row-cols-lg-2">
-                    <div class="col caraside">
-                        <div class="card-body p-5">
-                            <h3 class="card-title">Sobre mi</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, voluptate sit excepturi magnam deserunt eligendi voluptas ipsam ex sequi vel itaque commodi blanditiis maxime perferendis porro. Quibusdam officia quam nemo!</p>
-                            <button type="button" class="btn btn-outline-dark">Conocé más</button>
+        <section id="tratamientos" class="w-75 m-auto py-5">
+            <div class="text-center">
+                <h3 class="text-uppercase pt-5 pb-3">Tratamientos y tarifas</h3>
+                <div class="border rounded-3">
+                    <div>
+                        <div class="row row-cols-lg-3 row-cols-1 g-3 p-3">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="d-flex image-size">
+                                        <img src="https://img.freepik.com/foto-gratis/hermosa-joven-recibiendo-inyeccion-cosmetica-botox-su-rostro_1301-7787.jpg?w=900&t=st=1668293869~exp=1668294469~hmac=a58294f670bbfc30128d97c5fa3e1156d88eba22b3d79dddba6dcc07d21eaf0c" class="card-img-top tto-image mt-0 mx-auto" alt="tratamiento">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="flex-grow-1">
+                                            <h5 class="card-title">Acido hialuronico</h5>
+                                            <p class="card-text">Rellena labios para dar mas volumen</p>
+                                            <p class="card-text"><small class="text-muted">Tarifa $ 20.000,-</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="d-flex image-size">
+                                        <img src="https://img.freepik.com/foto-gratis/manos-cosmetologos-hacen-inyecciones-medicas-botox-hermosa-rubia-lifting-piel-tratamiento-facial-belleza-spa_176420-9347.jpg?w=900&t=st=1668293866~exp=1668294466~hmac=2510e1d5d6ba4342e361a54fac9aee955d2184eb60782abea51984220741848e" class="card-img-top tto-image mt-0 mx-auto" alt="tratamiento">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="flex-grow-1">
+                                            <h5 class="card-title">Botox</h5>
+                                            <p class="card-text">Elimina o atenua las arrugas de expresion</p>
+                                            <p class="card-text"><small class="text-muted">Tarifa $ 40.000,-</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="d-flex image-size">
+                                        <img src="https://img.freepik.com/foto-gratis/cerrar-manos-dando-inyeccion-mujer-joven_23-2149350081.jpg?w=900&t=st=1668277988~exp=1668278588~hmac=f8c81f8d9f60c4628acc1c661768d9b2b1cfca6f56994eeab87683100683ce74" class="card-img-top tto-image mt-0 mx-auto" alt="tratamiento">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="flex-grow-1">
+                                            <h5 class="card-title">Hilos tensores</h5>
+                                            <p class="card-text">Mejor la apariencia de la piel</p>
+                                            <p class="card-text"><small class="text-muted">Tarifa $ 15.000,-</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col d-flex justify-content-center julieta-background">
-                        <img class="rounded w-50 julieta-shadow pt-3" src="imagenes/julieta img.png" class="img-fluid" alt="card-horizontal-image">
+                </div> 
+            </div>
+            <p class="small text-center">No te pierdas las oferta del 15% de descuento contratando al menos 3 servicios!</p>
+        </section>
+        <section class="py-5">
+            <div class="w-75 mx-auto" id="sobremi">
+                <div class="d-flex flex-column flex-md-row border rounded">
+                    <div class="d-flex justify-content-center m-auto p-3 ">
+                        <img class="rounded-circle doctor" src="https://img.freepik.com/foto-gratis/doctor-tiro-medio-jeringa_23-2149313519.jpg?w=900&t=st=1668278014~exp=1668278614~hmac=1a84b9ec2560f76528f182e584e8a442084f7d81b7f81a74cb4efa33433f62e7" alt="Dra. Belen Cantarini">
+                    </div>
+                        
+                    <div class="p-5 bg-light">
+                        <h3 class="card-title">Sobre mi</h3>
+                        <p class="card-text pt-2">Este es Instituto de Estética Medica</p>
+                        <p class="card-text">Si querés sentirte mejor y mejorar tu imagen, no dudes en consultarnos. Somos profesionales especialistas de la estética y la salud.</p>
+                        <p class="card-text">Atiendo en mi consultorio ubicado en la zona de Belgrano y también lo hacemos a domicilio en capital federal.</p>
+                        <p class="card-text">Dra. Julieta</p>
+                        <div class="align-end">
+                            <button type="button" class="btn-dark btn"><a href="" class="text-white text-decoration-none">Comentarios de nuestros pacientes</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="contacto" class="w-75 m-auto py-5">
+        <section>
+            <div id="novedades" class="text-center">
+                <h3 class="text-uppercase pt-5 pb-3">Novedades</h3>
+            </div>
+            <div id="carouselDark" class="carousel carousel-dark slide pointer-event w-75 m-auto" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselDark" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselDark" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2013/03/02/01/25/american-express-89024_960_720.jpg"  style="object-fit: cover; height: 50vh;" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-caption d-none d-sm-block bg-light">
+                            <h2>Promocion con tarjetas!</h2>
+                            <p>Tarjetas de credito VISA o MASTERCARD tienen 3 o 6 cuotas sin interes y un 10% de descuento!!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/23/17/30/girls-1853958_960_720.jpg" style="object-fit: cover; height: 50vh;" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-caption d-none d-sm-block bg-light">
+                            <h2>Promo amigas!!!</h2>
+                            <p>Si venis con una amiga, podes acceder a la promo de las amigas!! En el mes de la mujer les hacemos un descuento agregado del 10% acumulable!!! Aprovecha!!!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/1252687658/es/foto/cuidado-de-la-piel-envejecida-collage-de-hermosa-mujer-madura-con-zonas-de-arrugas-ampliadas.jpg?s=612x612&w=0&k=20&c=LNaj_0DhMs8XSv4VneTlzv13GhAIzwvGh3Ae04399r8=" style="object-fit: cover; height: 50vh;" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-caption d-none d-sm-block bg-light">
+                            <h2>Contratando mas servicios</h2>
+                            <p>Si contratas 3 servicios, te sumamos otro 10% de descuento!!!.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselDark" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselDark" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+        <section id='contacto' class="w-75 m-auto py-5">
             <div>
-                <div>
-                    <div class="text-uppercase text-center">
-                        <div>Contactame</div>
-                        <div class="h2">Enviame tu consulta</div>
-                    </div>        
-                    <form name="sendEmailForm" action="https://formsubmit.co/belencantarini@gmail.com" method="POST" class="container p-0">
-                        <div class="d-flex gap-2 flex-column flex-md-row gap-2 m-0">
-                            <input type="text" class="form-control w-100" id="formNombre" name="nombre" placeholder="Nombre" required>
-                            <input type="email" class="form-control w-100" id="formEmail" name="correo" placeholder="Correo" required>
-                        </div>
-                        <textarea class="form-control mt-3"  name="mensaje" id="formMensaje" cols="30" rows="5" placeholder="Sobre qué quieres consultar?" required></textarea>
-                        <input type="hidden" name="_subject" value="Nuevo mensaje!">
-                        <input type="hidden" name="_next" value="https://belencantarini.github.io/Proyecto-Julieta/thanks.html">
-                        <input type="hidden" name="_autoresponse" value="He recibido tu mensaje! Lo contestare a la brevedad!">
-                        <p class="text-muted small">Envia tu consulta y te contestare a la brevedad</p>
-                        <button class="btn btn-purple w-100" type="submit">Enviar</button>
-                    </form>
-                </div>
+                <div class="text-uppercase text-center">
+                    <div>Contactame</div>
+                    <div class="h2">Enviame tu consulta</div>
+                </div>        
+                <form name="sendEmailForm" action="" method="" class="container p-0">
+                    <div class="d-flex gap-2 flex-column flex-md-row m-0">
+                        <input type="text" class="form-control w-100" id="formNombre" name="nombre" placeholder="Nombre" required>
+                        <input type="email" class="form-control w-100" id="formEmail" name="email" placeholder="Correo" required>
+                    </div>
+                    <textarea class="form-control mt-3"  name="mensaje" id="formMensaje" cols="30" rows="5" placeholder="Sobre qué quieres consultar?" required></textarea>
+                    <input type="hidden" name="_subject" value="Nuevo mensaje!">
+                    <p class="p-0 m-0">Cuidá tu imagen, y sentite plena y natural: conocé los tratamientos. Tenemos tratamientos según tus necesidades.</p>
+                    <p class="text-muted small">Envia tu consulta y te contestare a la brevedad</p>
+                    <input class="btn btn-purple w-100" type="submit" value="Enviar formulario"></input>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
         <nav class="navbar navbar-expand-lg navfooter">
-            <div class="d-flex flex-column w-100 p-1">
-                <img class="align-self-center" src="./imagenes/LOGO AZUL XX.png" alt="Logo" width="200px">
-                <div class="container">
-                    <ul class="mediaicons d-flex nav align-items-center justify-content-center p-2">  
+            <div class="container-fluid d-flex justify-content-center justify-content-md-between px-3 px-sm-5">
+                <a class="navbar-brand" href="#">
+                    <p class="h4 px-3">Dra Julieta - Medicina Estetica</p>
+                </a>
+                <div class="d-flex">
+                    <ul class="mediaicons d-flex nav">  
                         <li class="nav-item"><a class="nav-link d-flex" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-1x" aria-hidden="true"></i><p class="d-none">Facebook</p></a></li>
                         <li class="nav-item"><a class="nav-link d-flex" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-1x" aria-hidden="true"></i><p class="d-none">Instagram</p></a></li>
                         <li class="nav-item"><a class="nav-link d-flex" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-1x" aria-hidden="true"></i><p class="d-none">Twitter</p></a></li>
@@ -137,47 +206,10 @@
                         <li class="nav-item"><a class="nav-link d-flex" href="mailto:belencantarini@gmail.com"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i><p class="d-none">Gmail</p></a></li>
                         <li class="nav-item"><a class="nav-link d-flex" href="https://api.whatsapp.com/send?phone=5491155086946&text=Hola!%20Vi%20tu%20sitio%20web%20sobre%20métodos%20de%20estudio%20y%20quisiera%20saber%20más!" target="_blank"><i class="fab fa-whatsapp fa-1x" aria-hidden="true"></i><p class="d-none">WhatsApp</p></a></li>
                     </ul>          
-                </div>
-                <hr>
-                    <div class="d-flex flex-wrap justify-content-around">
-                        <div class="footer-column pt-3">
-                            <h3 class="">Dra. Julieta</h3>
-                            <ul class="nav d-flex flex-column">
-                                <li class="nav-item"><a href="" class="nav-link d-flex p-0"><p>Odontologa</p></a></li>
-                                <li class="nav-item"><a href="" class="nav-link d-flex p-0"><p>MN xxx</p></a></li>
-                                <li class="nav-item"><a href="" class="nav-link d-flex p-0"><p>Universidad</p></a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-column pt-3">
-                            <h3 class="">Tratamientos</h2>
-                                <ul class="nav d-flex flex-column">
-                                    <li class="nav-item"><a href="" class="nav-link d-flex p-0"><p>Botox</p></a></li>
-                                    <li class="nav-item"><a href="" class="nav-link d-flex p-0"><p>Hilos tensores</p></a></li>
-                                    <li class="nav-item"><a href="" class="nav-link d-flex p-0"><p>Acido hialuronico</p></a></li>
-                                </ul>
-                        </div>
-                        <div class="footer-column pt-3">
-                            <h3>Contacto</h3>
-                            <ul class="mediaicons d-flex flex-column nav">  
-                                <li class="nav-item"><a class="nav-link d-flex p-0" href="mailto:belencantarini@gmail.com"><p>Gmail belencantarini@gmail.com</p></a></li>
-                                <li class="nav-item"><a class="nav-link d-flex p-0" href="https://api.whatsapp.com/send?phone=5491155086946&text=Hola!%20Vi%20tu%20sitio%20web%20sobre%20métodos%20de%20estudio%20y%20quisiera%20saber%20más!" target="_blank"><p>WhatsApp 15-5508-6946</p></a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-column pt-3">
-                            <h3>Mis redes</h3>
-                            <ul class="mediaicons d-flex flex-column nav">  
-                                <li class="nav-item"><a class="nav-link d-flex p-0" href="https://www.facebook.com/" target="_blank"><p>Facebook</p></a></li>
-                                <li class="nav-item"><a class="nav-link d-flex p-0" href="https://www.instagram.com/" target="_blank"><p>Instagram</p></a></li>
-                                <li class="nav-item"><a class="nav-link d-flex p-0" href="https://twitter.com/" target="_blank"><p>Twitter</p></a></li>
-                                <li class="nav-item"><a class="nav-link d-flex p-0" href="https://www.linkedin.com/" target="_blank"><p>LinkedIn</p></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>  
             </div>
         </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="enviaremail.js"></script>
 </body>
 </html>
